@@ -14,6 +14,7 @@ class CalcTest extends TestCase
     public function testSub()
     {
         $calc = new Calc();
-        $this->assertEquals($calc->sub(3, 2), 1); }
+        $this->assertEquals($calc->sub(3, 2), 1);
     }
+}
 ?>
