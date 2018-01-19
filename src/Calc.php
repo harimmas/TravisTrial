@@ -15,7 +15,7 @@ class Calc {
         return $a * $b;
     }
 
-    function devidedby($a, $b) {
+    function devidedBy($a, $b) {
         return $a / $b;
     }
 

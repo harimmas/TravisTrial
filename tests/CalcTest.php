@@ -21,6 +21,11 @@ class CalcTest extends TestCase
         $calc = new Calc();
         $this->assertEquals($calc->times(3, 2), 6);
     }
+    public function testDvidedBy()
+    {
+        $calc = new Calc();
+        $this->assertEquals($calc->devidedBy(6, 2), 3);
+    }
 
 }
 ?>
