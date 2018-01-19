@@ -29,7 +29,7 @@ class CalcTest extends TestCase
     public function testDvidedBy0()
     {
         $calc = new Calc();
-        $this->assertEquals($calc->devidedBy(6, 0), 3);
+        $this->assertEquals($calc->devidedBy(6, 0), " error");
     }
 
 }
