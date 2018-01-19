@@ -16,5 +16,11 @@ class CalcTest extends TestCase
         $calc = new Calc();
         $this->assertEquals($calc->sub(3, 2), 1);
     }
+    public function testTimes()
+    {
+        $calc = new Calc();
+        $this->assertEquals($calc->times(3, 2), 6);
+    }
+
 }
 ?>
