@@ -16,11 +16,11 @@ class Calc {
     }
 
     function devidedBy($a, $b) {
-        if($b==0){
-            return "0 error";
-        }else{
+//        if($b==0){
+//            return "0 error";
+//        }else{
             return $a / $b;
-        }
+//        }
         
     }
 
